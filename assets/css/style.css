@@ -11,3 +11,73 @@ html {
   font-size: 62.5%;
   font-family: "Poppins";
 }
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #171100;
+  padding: 11px 41px;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Header */
+
+.header {
+  height: 100vh;
+  background-color: #fffcf4;
+  padding: 35px 0;
+}
+
+.content {
+  width: 1170px;
+  height: 50px;
+  margin: 35px auto 0;
+}
+
+.header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .navigation .nav {
+  display: flex;
+  justify-content: space-around;
+  width: 359px;
+  margin-left: auto;
+  margin-right: 111px;
+}
+
+.header .content .navigation .nav a {
+  color: #5f5b53;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.header .content .navigation .nav li:first-child a {
+  color: #171100;
+}
+
+/* .header .content .navigation .nav li:first-child a::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 2;
+  border-radius: 1px;
+  background-color: #171100;
+} */
+
+.header .content .navigation .nav span {
+  display: block;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #171100;
+}
