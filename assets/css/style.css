@@ -364,3 +364,63 @@ html {
 .list-items .item-course:first-child .block-item .info-course .booking {
   background-color: #ffb900;
 }
+
+/* Testimonial */
+
+.testimonial {
+  width: 100%;
+  background-color: #2e2100;
+  margin-top: 200px;
+}
+
+.testimonial .content {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.testimonial .content .authority .name {
+  font-family: "Sen";
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.testimonial .content .authority .work {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #bfbcb2;
+}
+
+.testimonial .content .slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  width: 30px;
+}
+
+.testimonial .content .slide .dotteds {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+}
+
+.testimonial .content .slide .dotteds:nth-child(2) {
+  background-color: #ffb900;
+}
+
+.testimonial .content .speech {
+  width: 740px;
+}
+
+.testimonial .content .speech .desc {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.6rem;
+  line-height: 1.7;
+}
