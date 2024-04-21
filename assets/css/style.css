@@ -495,6 +495,7 @@ html {
 
 .ctc {
   margin-top: 140px;
+  margin-bottom: 145px;
 }
 
 .ctc .content {
@@ -532,4 +533,148 @@ html {
   color: #fff;
   font-weight: 600;
   font-size: 1.6rem;
+}
+
+/* blog */
+
+.bio {
+  height: 870px;
+  background-color: #fffcf4;
+  padding-top: 145px;
+  /* width: 448px; */
+  width: 100%;
+}
+
+.bio .blog {
+  margin: auto;
+  text-align: center;
+  width: 448px;
+}
+
+.bio .blog .title {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #130606;
+}
+
+.bio .blog .desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #696262;
+  margin-top: 22px;
+  /* width: 448px; */
+  /* text-align: center; */
+}
+
+.bio .content .ul {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bio .ul .item {
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.bio .ul .item .body {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.bio .ul .item .date {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #5f5b53;
+}
+
+.bio .content .list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio .content .list-items .item {
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.bio .content .list-items .body {
+  margin: 20px 20px 0 20px;
+}
+
+.bio .content .list-items .body .date {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #5f5b53;
+  margin-bottom: 40px;
+}
+
+.bio .content .list-items .body .date:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffb900;
+  margin-right: 3px;
+}
+
+.bio .content .list-items .body .question {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.bio .content .list-items .body .question::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 160px;
+  border-radius: 0.5px;
+  background-color: #e2dfda;
+  top: -20px;
+}
+
+.bio .content .list-items .body .btn-read {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #171100;
+  padding: 15px 20px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.bio .content .list-items li:nth-child(1) .body .btn-read {
+  background-color: #ffb900;
+}
+
+.bio .next-pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bio .next-pages .dashed p{
+  width: 6px;
+  height: 6px;
+  background-color: #5F5B53;
+  border-radius: 50%;
+}
+.bio .next-pages li:nth-child(2) .dashed p{
+  background-color: #FFB900;
+  margin: 0px 5px 0px;
 }
